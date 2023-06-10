@@ -1,8 +1,8 @@
-package controller;
+package com.example.Eight.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.springboot.entity.Student;
+import com.example.Eight.entity.Student;
 
 
 public interface StudentService extends IService<Student> {

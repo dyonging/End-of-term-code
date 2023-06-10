@@ -1,11 +1,12 @@
-package controller;
+package com.example.Eight.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.springboot.common.Result;
-import com.example.springboot.entity.Student;
-import com.example.springboot.entity.User;
-import com.example.springboot.service.StudentService;
+import com.example.Eight.common.Result;
+import com.example.Eight.entity.Student;
+import com.example.Eight.entity.User;
+import com.example.Eight.service.StudentService;
 import org.springframework.web.bind.annotation.*;
+import com.example.Eight.service.StudentService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;

@@ -1,12 +1,14 @@
-package controller;
+package com.example.Eight.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.springboot.entity.Student;
-import com.example.springboot.mapper.StudentMapper;
-import com.example.springboot.service.StudentService;
+import com.example.Eight.entity.Student;
+import com.example.Eight.mapper.StudentMapper;
+import com.example.Eight.service.StudentService;
+import com.example.Eight.mapper.StudentMapper;
 import org.springframework.stereotype.Service;
+import com.example.Eight.service.StudentService;
 
 import javax.annotation.Resource;
 
